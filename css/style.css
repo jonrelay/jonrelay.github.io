@@ -7,20 +7,12 @@ body
 
 #bg
 {
-	background-image: url(/images/bg.jpg);
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-}
-
-#title
-{
-	background-image: url(/images/title.jpg);
+	background: url(/images/title.jpg),url(/images/bg.jpg);
     background-position: center;
     background-size: cover;
     background-blend-mode: multiply;
     width: 100%;
     height: 100%;
 }
+
 
