@@ -7,7 +7,7 @@ body
 
 #bg
 {
-	background: url(/images/title.jpg),url(/images/bg.jpg);
+	background: url(/images/poppy.jpg),url(/images/title.png),url(/images/bg.jpg);
     background-position: center;
     background-size: cover;
     background-blend-mode: multiply;
