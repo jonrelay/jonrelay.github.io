@@ -65,7 +65,7 @@ body {
     color: white;
     z-index: 40;
     position: absolute;
-    top: 800px;
+    top: 100%;
 }
 
 h1
