@@ -51,7 +51,9 @@ body {
     height: 100%;
      background:url('../images/title.png');
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,0.4);
     position: absolute;
     top: 0px;
 }
