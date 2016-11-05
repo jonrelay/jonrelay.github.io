@@ -13,7 +13,6 @@ var blockTween = new TweenMax.to('#poppy', 1.5, {
 
 var scene = new ScrollMagic.Scene({triggerElement: "#scrollTrigger1", duration: 500})
 						.setTween(blockTween)
-						.addIndicators() // add indicators (requires plugin)
 						.addTo(controller);
 
 
@@ -24,7 +23,6 @@ var titleTween = new TweenMax.to('#title', 1.5, {
 
 var scene = new ScrollMagic.Scene({triggerElement: "#scrollTrigger1", duration: 500})
 						.setTween(titleTween)
-						.addIndicators() // add indicators (requires plugin)
 						.addTo(controller);
 
 
